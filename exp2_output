@@ -1,0 +1,17 @@
+disease(john, Disease).
+Disease = flu .
+
+?- disease(mary, Disease).
+Disease = measles .
+
+?- disease(sam, Disease).
+false.
+
+
+animaloutput
+
+?- animal(bat, Type).
+Type = bat .
+
+?- animal(penguin, Type).
+Type = penguin.
